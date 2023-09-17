@@ -1,0 +1,15 @@
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/bin/Debug/net7.0/ServiceContracts.deps.json
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/bin/Debug/net7.0/ServiceContracts.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/bin/Debug/net7.0/ServiceContracts.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/bin/Debug/net7.0/Entities.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/bin/Debug/net7.0/Entities.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.csproj.AssemblyReference.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.AssemblyInfoInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.AssemblyInfo.cs
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.csproj.CoreCompileInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.csproj.CopyComplete
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/refint/ServiceContracts.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ServiceContracts.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/ServiceContracts/obj/Debug/net7.0/ref/ServiceContracts.dll

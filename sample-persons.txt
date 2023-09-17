@@ -1,0 +1,101 @@
+[
+new() {
+  PersonName = "Sue",
+  Email = "sderuggiero0@wiley.com",
+  DateOfBirth = DateTime.Parse("8/7/2022"),
+  Gender = "Female",
+  Address = "1 Northland Avenue",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Jillane",
+  Email = "jkite1@oakley.com",
+  DateOfBirth = DateTime.Parse("11/20/2022"),
+  Gender = "Female",
+  Address = "00181 Drewry Park",
+  ReceiveNewsLetters = true,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Orella",
+  Email = "omatzel2@npr.org",
+  DateOfBirth = DateTime.Parse("9/19/2022"),
+  Gender = "Female",
+  Address = "3 Ludington Point",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Stavro",
+  Email = "smontague3@mac.com",
+  DateOfBirth = DateTime.Parse("11/13/2022"),
+  Gender = "Male",
+  Address = "17 Sutherland Circle",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Kaspar",
+  Email = "kleisman4@hhs.gov",
+  DateOfBirth = DateTime.Parse("10/30/2022"),
+  Gender = "Male",
+  Address = "5726 Burning Wood Junction",
+  ReceiveNewsLetters = true,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Terese",
+  Email = "tmanns5@toplist.cz",
+  DateOfBirth = DateTime.Parse("10/26/2022"),
+  Gender = "Female",
+  Address = "0421 Steensland Way",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Ambur",
+  Email = "adaverin6@craigslist.org",
+  DateOfBirth = DateTime.Parse("1/1/2023"),
+  Gender = "Female",
+  Address = "1279 Moulton Drive",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Clareta",
+  Email = "cpearce7@bigcartel.com",
+  DateOfBirth = DateTime.Parse("5/24/2023"),
+  Gender = "Female",
+  Address = "4160 Gale Street",
+  ReceiveNewsLetters = true,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Diarmid",
+  Email = "dmacduff8@chron.com",
+  DateOfBirth = DateTime.Parse("3/22/2023"),
+  Gender = "Male",
+  Address = "08 Merchant Avenue",
+  ReceiveNewsLetters = false,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}, 
+new() {
+  PersonName = "Myer",
+  Email = "msaunderson9@usatoday.com",
+  DateOfBirth = DateTime.Parse("1/4/2023"),
+  Gender = "Male",
+  Address = "07619 1st Point",
+  ReceiveNewsLetters = true,
+  PersonID = Guid.Parse(""),
+  CountryID = Guid.Parse("")
+}]

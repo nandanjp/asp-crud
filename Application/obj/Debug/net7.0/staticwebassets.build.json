@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "dmYSWNfcLucW1yr4nRu8OR8maPMRBQCjBQ7A9PIN6rU=",
+  "Source": "Application",
+  "BasePath": "_content/Application",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Application/wwwroot",
+      "Source": "Application",
+      "ContentRoot": "/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Application/wwwroot/",
+      "BasePath": "_content/Application",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

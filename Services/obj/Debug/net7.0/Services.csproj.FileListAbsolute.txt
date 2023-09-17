@@ -1,0 +1,17 @@
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/Services.deps.json
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/Services.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/Services.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/Entities.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/ServiceContracts.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/ServiceContracts.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/bin/Debug/net7.0/Entities.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.csproj.AssemblyReference.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.AssemblyInfoInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.AssemblyInfo.cs
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.csproj.CoreCompileInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.csproj.CopyComplete
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/refint/Services.dll
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/Services.pdb
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/Services/obj/Debug/net7.0/ref/Services.dll

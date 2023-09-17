@@ -1,0 +1,105 @@
+@model IEnumerable<PersonResponse>
+
+@* <a href="~/persons/create">Create Someone</a> *@
+<a asp-controller="person" asp-action="create">Create Someone</a> 
+
+<form action="~/persons/index" method="get">
+  <div class="mt-1 mb-2 p-3 rounded-md shadow-md flex items-stretch justify-evenly flex-wrap gap-8 w-full">
+    <div class="flex-1">
+      <select name="searchBy" id="" class="p-4 text-xl rounded-md w-full transition focus:shadow-lg ease-in-out duration-200 shadow-md focus:shadow-blue-400/30">
+        @foreach (var field in ViewBag.SearchFields)
+        {
+          if(field.Key == ViewBag.CurrentSearchBy)
+          {
+            <option value="@field.Key" selected="selected">@field.Value</option>
+          } else {
+            <option value="@field.Key">@field.Value</option>
+          }
+        }
+      </select>
+    </div>
+    
+    <div class="flex-1">
+      <input type="search" id="Search" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" name="searchString" value=@ViewBag.CurrentSearchString/>
+    </div>
+
+    <div class="flex-1">
+      <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Search</button>
+      <a href="~/persons/index" class="p-2 rounded-lg transition hover:text-blue-600 ease-in-out duration-300">Clear All</a>
+    </div>
+
+  </div>
+
+  <div class="relative overflow-x-auto shadow-md rounded-lg sm:rounded-md">
+    <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+      <thead class="text-xs text-gray-700 uppercase dark:text-gray-400">
+        <tr>
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.PersonName)},
+            {"DisplayName", "Person Name"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.Email)},
+            {"DisplayName", "Email"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.Address)},
+            {"DisplayName", "Address"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.Gender)},
+            {"DisplayName", "Gender"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.Age)},
+            {"DisplayName", "Age"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.Country)},
+            {"DisplayName", "Country"},
+          })
+          @await Html.PartialAsync("_GridColumnHeader", new ViewDataDictionary
+          (ViewData) {
+            {"ColumnName", nameof(PersonResponse.ReceiveNewsLetters)},
+            {"DisplayName", "ReceiveNewsLetters"},
+          })
+          <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+            <p>Edit Control</p>
+          </th>
+          <th scope="col" class="px-6 py-3 bg-gray-50 dark:bg-gray-800">
+            <p>Delete</p>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        @foreach (PersonResponse person in Model)
+        {
+          <tr class="border-b border-gray-200 dark:border-gray-700">
+            <th
+              scope="row"
+              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap bg-gray-50 dark:text-white dark:bg-gray-800"
+            >
+              @person.PersonName
+            </th>
+            <td class="px-6 py-4">@person.Email</td>
+            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">@person.Address</td>
+            <td class="px-6 py-4">@person.Gender</td>
+            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">@person.Age</td>
+            <td class="px-6 py-4">@person.Country</td>
+            <td class="px-6 py-4 bg-gray-50 dark:bg-gray-800">
+              @person.ReceiveNewsLetters
+            </td>
+            <td><a asp-controller="person" asp-action="edit" asp-route-personID="@person.PersonID" class="p-4 w-full text-center">Edit</a></td>
+            <td><a asp-controller="person" asp-action="delete" asp-route-personID="@person.PersonID" class="p-4 w-full text-center">Delete</a></td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</form>

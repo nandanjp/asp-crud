@@ -1,0 +1,8 @@
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.csproj.AssemblyReference.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.AssemblyInfoInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.AssemblyInfo.cs
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.csproj.CoreCompileInputs.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.MvcApplicationPartsAssemblyInfo.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.RazorAssemblyInfo.cache
+/Users/nandapatel/projects/web-development/webapis/c-sharp/AspGuide-Project/CRUDExample/obj/Debug/net7.0/CRUDExample.RazorAssemblyInfo.cs
